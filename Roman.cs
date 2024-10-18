@@ -19,8 +19,9 @@ namespace AppConsoleLivres
 
         public override void AfficherDetails()
         {
-            base.AfficherDetails();
             Console.WriteLine($"Genre: {Genre}");
+            base.AfficherDetails();
+
         }
     }
 }
